@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="si">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>මතුගම ආනන්ද ශාස්ත්‍රාලය - නිල තොරතුරු මධ්‍යස්ථානය</title>
+    <style>
+        :root {
+            --primary-color: #800020; /* තද රතු / Maroon */
+            --secondary-color: #2b6cb0;
+            --accent-color: #d69e2e; /* කහ පැහැය */
+            --bg-color: #f7fafc;
+            --text-color: #2d3748;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            min-height: 100vh;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 35px;
+            border-radius: 16px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+            width: 100%;
+            max-width: 900px;
+            box-sizing: border-box;
+        }
+
+        .header-banner {
+            text-align: center;
+            margin-bottom: 25px;
+            position: relative;
+        }
+
+        .school-img {
+            width: 100%;
+            height: 320px;
+            object-fit: cover;
+            border-radius: 12px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.15);
+            margin-bottom: 15px;
+            border: 3px solid var(--primary-color);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 30px;
+            margin: 10px 0 5px 0;
+            font-weight: 700;
+        }
+
+        .subtitle {
+            color: #4a5568;
+            font-size: 17px;
+            font-weight: 500;
+            margin-bottom: 20px;
+        }
+
+        .section-title {
+            color: var(--primary-color);
+            border-bottom: 3px solid var(--accent-color);
+            padding-bottom: 8px;
+            margin-top: 30px;
+            font-size: 20px;
+            font-weight: 600;
+        }
+
+        .info-box {
+            background: linear-gradient(to right, #fff5f5, #fff);
+            border-left: 5px solid var(--primary-color);
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 15px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+        }
+
+        ul {
+            list-style-type: none;
+            padding: 0;
+            margin: 0;
+            color: var(--text-color);
+        }
+
+        li {
+            padding: 10px 0;
+            border-bottom: 1px dashed #e2e8f0;
+            line-height: 1.6;
+        }
+
+        li:last-child {
+            border-bottom: none;
+        }
+
+        li strong {
+            color: #1a202c;
+        }
+
+        .media-container {
+            position: relative;
+            width: 100%;
+            height: 420px;
+            border-radius: 10px;
+            overflow: hidden;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+            border: 2px solid #e2e8f0;
+            margin-top: 15px;
+        }
+
+        iframe {
+            width: 100%;
+            height: 100%;
+            border: 0;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 12px;
+        }
+
+        .btn {
+            display: inline-flex;
+            align-items: center;
+            gap: 8px;
+            padding: 12px 22px;
+            background-color: var(--secondary-color);
+            color: white;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 600;
+            transition: all 0.3s ease;
+            border: none;
+            cursor: pointer;
+            font-size: 15px;
+            box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+        }
+
+        .btn-purple { background-color: #6b46c1; }
+        .btn-green { background-color: #38a169; }
+        .btn-dark { background-color: #4a5568; }
+
+        @media print {
+            .btn-container, .school-img {
+                display: none;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <!-- පාසල් පින්තූරය (Wallpaper / Photo) -->
+        <div class="header-banner">
+            <img src="http://googleusercontent.com/image_collection/image_retrieval/7470221274621564411_0" alt="මතුගම ආනන්ද ශාස්ත්‍රාලය" class="school-img">
+            <h1>මතුගම ආනන්ද ශාස්ත්‍රාලය</h1>
+            <div class="subtitle">කළුතර දිස්ත්‍රික්කයේ ප්‍රධාන ජාතික පාසලක් • ආලෝකෝ උදපාදි</div>
+        </div>
+
+        <!-- පාසලේ මූලික තොරතුරු -->
+        <div class="section-title">✨ පාසලේ මූලික තොරතුරු</div>
+        <div class="info-box">
+            <ul>
+                <li><strong>ආරම්භය:</strong> 1942 පෙබරවාරි 22 වන දින දයාසේන පාස්කුවාල් මහතා ඇතුළු ප්‍රදේශයේ ප්‍රධානීන් විසින් ආරම්භ කරන ලදී. (මුලින්ම ආරම්භ වූයේ මතුගම ශ්‍රී සුදර්ශනාරාම විහාරස්ථානයේදී සිසුන් 11 දෙනෙකුගෙන් සහ ගුරුවරුන් 3 දෙනෙකුගෙන් යුතුවය).</li>
+                <li><strong>ආදර්ශ පාඨය:</strong> "ආලෝකෝ උදපාදි" (Aaloko Udapadi)</li>
+                <li><strong>පාසලේ වර්ණ:</strong> තද රතු (Maroon), කහ සහ දම් (Purple)</li>
+                <li><strong>තත්ත්වය:</strong> කළුතර දිස්ත්‍රික්කයේ ඇති ප්‍රධාන මෙන්ම කීර්තිමත් ජාතික පාසලකි.</li>
+                <li><strong>ලිපිනය:</strong> ආනන්ද ශාස්ත්‍රාල මාවත, මතුගම.</li>
+                <li><strong>දුරකථන අංකය:</strong> +94 342 247 271</li>
+            </ul>
+        </div>
+
+        <!-- පාසල් ගීතය / වීඩියෝව -->
+        <div class="section-title">🎶 පාසල් ගීතය සහ වීඩියෝව</div>
+        <p style="color: #4a5568; font-size: 14px;">මතුගම ආනන්ද ශාස්ත්‍රාලයට සම්බන්ධ වීඩියෝව පහතින් නරඹන්න:</p>
+        <div class="media-container">
+            <iframe src="https://www.youtube.com/embed/s5fh2wIr1yE" 
+                title="Ananda Sastralaya National School Matugama" 
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                allowfullscreen>
+            </iframe>
+        </div>
+
+        <!-- මාර්ග සිතියම -->
+        <div class="section-title">📍 මාර්ග සිතියම (Location Map)</div>
+        <p style="color: #4a5568; font-size: 14px;">පාසල පිහිටි ස්ථානය සිතියම හරහා පහසුවෙන් බලාගන්න:</p>
+        <div class="media-container">
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.856980065099!2d80.1265!3d6.5208!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ae3cdcf42efb3bf%3A0x8e826b010c73e04e!2sAnanda%20Sastralaya%20National%20School%2C%20Matugama!5e0!3m2!1sen!2slk!4v1700000000000!5m2!1sen!2slk" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+
+        <!-- ක්‍රියාකාරී බොත්තම් (Buttons) -->
+        <div class="btn-container">
+            <a class="btn btn-purple" href="https://sastralaya.lk/" target="_blank">🌐 නිල වෙබ් අඩවිය</a>
+            <a class="btn" href="https://maps.app.goo.gl/uX73x5R33tCj3iY28" target="_blank">🗺️ මාර්ගය බලන්න</a>
+            <a class="btn btn-green" href="https://www.facebook.com/p/Ananda-Sastralaya-National-School-Matugama-100057476690740/" target="_blank">📘 ෆේස්බුක් පිටුව</a>
+            <button class="btn btn-dark" onclick="window.print()">🖨️ පිටුව මුද්‍රණය කරන්න</button>
+        </div>
+    </div>
+
+</body>
+</html>
